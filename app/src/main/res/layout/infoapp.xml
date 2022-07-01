@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+22 - April - 2022
+Rezha Satria SP
+10119281
+IF7
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".View.Profile">
+
+    <TextView
+        android:id="@+id/page1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Page 1 of 2"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="200dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/page1"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:text="AKB Tugas Sensor"
+        android:textColor="#222223"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textbiasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:text="AKBSensapp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/biasa2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textbiasa"
+        android:layout_alignParentStart="true"
+        android:text="Lihat Lokasi"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="150px"
+        android:layout_height="400px"
+        android:layout_below="@id/biasa2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_baseline_arrow_downward_24"
+        />
+
+
+
+</RelativeLayout>
